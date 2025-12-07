@@ -5,5 +5,9 @@ def name():
     c = "TGNAS!"
     print(f"{a}{b}{c}")
 
-
-name()
+x=0
+while(x<10):
+    name()
+    x+=1
+    if x>3:
+        break
